@@ -7,6 +7,21 @@
 ![](https://github.com/covetcode/SelectableContactView/blob/master/picture/p1.PNG)
 
 
+
+Usage
+-----
+copy SelectableContactView.java to your project
+
+copy atts.xml to res/values
+
+```java
+
+   if (SelectableContactView.isSelected()){
+                    SelectableContactView.deselect();
+                }else {
+                    SelectableContactView.select();
+                }
+                
 ```xml
       <attr name="text" format="string"/>
         <attr name="textColor" format="color" />
