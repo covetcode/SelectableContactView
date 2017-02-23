@@ -1,4 +1,4 @@
-package com.wayww.windowtest;
+package com.wayww;
 
 import android.animation.ValueAnimator;
 import android.content.Context;
